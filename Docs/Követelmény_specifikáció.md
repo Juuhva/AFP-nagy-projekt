@@ -36,6 +36,21 @@ folyamatosan alkalmazkodniuk kell az üzleti környezet változásaihoz, és kih
 
 ## 6. Követelménylista
 
+| ID | Modul | Név | Kifejtés |
+| :---: | --- | --- | --- |
+| K1  | Weboldal | Főoldal  | Webshop főoldalának dizájnja. |
+| K2  | Weboldal | Kínálat  | Webshopon kínált termékek közötti böngészés. |
+| K3  | Weboldal | Felhasználó  | Regisztrációs és bejelentkező felület. |
+| K4  | Weboldal | Profil  | A már regisztrált felhasználó profiljának megtekintése. |
+| K5  | Felhasználókezelés | Regisztráció  | Egy felhasználó létrehozása. |
+| K6  | Felhasználókezelés | Bejelentkezés  | Egy már létrejött felhasználó bejelentkeztetése. |
+| K7  | Felhasználókezelés | Profilkezelés  | Egy már létrejött felhasználó profiljának szerkesztése. |
+| K8  | Keresőfunkció | Szűrés  | Egy termék bizonyos tulajdonságaira való szűrés, a gyorsabb és hatékonyabb keresés érdekében. |
+| K9  | Kínálat | Értékelés | Visszajelzés az adott termékről és szerzőröl. |
+| K10  | Kínálat | Termékleírás | Egy adott termékről kép, leírás(főszöveg, kategóriái, címkék, szerző, fordító, megjelenés, oldalszám, ISBN, termékelérhetőség, ára).
+| K11  | Ügyintézés | Ügyfélszolgálat | Probléma esetény segítséget nyújtunk telefonon, illetve el lehet érni e-mailen. |
+| K12  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
+| K13  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
 
 
 ## 7. Fogalomtár
