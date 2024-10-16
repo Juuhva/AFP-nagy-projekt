@@ -52,6 +52,7 @@ folyamatosan alkalmazkodniuk kell az üzleti környezet változásaihoz, és kih
 | K12  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
 | K13  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
 
+
 ## 7. Fogalomtár
 
 
