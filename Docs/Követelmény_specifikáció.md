@@ -36,8 +36,6 @@ folyamatosan alkalmazkodniuk kell az üzleti környezet változásaihoz, és kih
 
 ## 6. Követelménylista
 
-<<<<<<< Updated upstream
-=======
 | ID | Modul | Név | Kifejtés |
 | :---: | --- | --- | --- |
 | K1  | Weboldal | Főoldal  | Webshop főoldalának dizájnja. |
@@ -55,8 +53,6 @@ folyamatosan alkalmazkodniuk kell az üzleti környezet változásaihoz, és kih
 | K12  | Ügyintézés | Ügyfélszolgálat | Probléma esetén segítséget nyújtunk telefonon, illetve el lehet érni minket e-mailen. |
 | K13  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
 | K14  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
->>>>>>> Stashed changes
-
 
 ## 7. Fogalomtár
 
