@@ -2,6 +2,7 @@
 
 ## 1. Jelenlegi helyzet leírása
 
+Napjainkban számos könyves weboldal és webshop elavulttá vált: sok esetben rendszerezetlenek és nehezen átláthatók a felhasználók számára. Az érdeklődés egyre inkább a modern, letisztult, és könnyen kezelhető felületek felé fordul, miközben a régebbi webshopokat gyakran elhanyagolják, és nem fejlesztik tovább. Emiatt ezek az oldalak egyre kevésbé képesek versenyképesen részt venni az online kereskedelemben, és annak ellenére, hogy egykor megbízhatónak számítottak, nehezen tartják meg a közönségüket. Az elmúlt években az ilyen webshopok és kínálatuk iránti érdeklődés érezhetően csökkent, ami hatással van a bevételeikre, valamint a könyvek kiadására és nyomtatására. A régi oldalak modernizálása azonban várhatóan lendületet adna a forgalmuknak, és ez a helyzet kiváló lehetőséget nyújt a könyves weboldalak és webshopok számára, hogy újraépítsék kapcsolatukat az olvasóközönséggel, és fokozzák a könyvek iránti érdeklődést. Ugyanakkor fontos, hogy a közönség igényeinek változását folyamatosan figyelemmel kísérjék, és ezekhez igazodva alakítsák weboldalaikat. Az elavult webshopok számára az alkalmazkodás kulcsfontosságú, hiszen az új technológiák és trendek bevezetésével képesek lehetnek megőrizni versenyképességüket és fennmaradásukat az online piacon.
 
 ## 2. Vágyálom rendszer 
 
