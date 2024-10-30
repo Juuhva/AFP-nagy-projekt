@@ -4,6 +4,29 @@
 
 ## 2. Projektterv
 
+### 2.1 Projektszerepkörök, felelőségek
+
+* Scrum master:
+	-   Pántya Barnabás 	
+* Product owner:
+	-   Pántya Barnabás
+* Üzleti szereplő:
+	-   Megrendelő:
+	    - Sarah J. Maas
+   
+### 2.2 Projektmunkások és felelőségek
+   		
+* Frontend:
+	-   Hegyközi Petra
+	-   Habóczki Szabolcs
+* Backend:  
+	-   Csonka Mihály
+ 	-   Vincze Ákos 
+* Tesztelés:   
+	-   Hegyközi Petra
+	-   Vincze Ákos
+	-   Habóczki Szabolcs
+	-   Csonka Mihály
 
 
 ### 2.1 Projektszerepkörök, felelőségek
