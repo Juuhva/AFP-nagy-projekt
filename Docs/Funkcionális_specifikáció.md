@@ -43,6 +43,7 @@
 
 ## 8. Képernyőtervek
 
+![kepernyotervek](../Img/kepernyoterv.png)
 
 ## 9. Forgatókönyvek
 
