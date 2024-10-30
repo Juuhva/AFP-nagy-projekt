@@ -12,7 +12,7 @@
 	-   Pántya Barnabás
 * Üzleti szereplő:
 	-   Megrendelő:
-	-       Sarah J. Maas
+	    - Sarah J. Maas
    
 ### 2.2 Projektmunkások és felelőségek
    		
