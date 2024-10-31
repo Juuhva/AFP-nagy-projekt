@@ -37,7 +37,7 @@ A kínálatban nem csak egyetlen kiadó által kiadott könyv található meg, s
 A webshopban szereplő termékeket rendszeresen frissítik, mivel a könyves piac folyamatosan újabb könyvekkel bővül. Napjainkban felkapottá vált az éldekorált kiadás is, így a kiadók akár utánnyomtathatják a korábban kiadott, esetleg elfogyott köteteiket.
 A webshop ugyanarra a sémára épül, mint a már megszokott webáruházak, a felhasználó kedve szerint tud válogatni a különféle kiadók könyvei között. A weboldal tulajdonságai tartalmazzák:
 
-- Regisztáció
+- Regisztráció
 - Bejelentkezés
 - Könyvek vásárlása
 - Könyvekre való szűrés
