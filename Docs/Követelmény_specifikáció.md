@@ -32,6 +32,20 @@ folyamatosan alkalmazkodniuk kell az üzleti környezet változásaihoz, és kih
 
 ## 5. Igényelt üzleti folyamatok modellje
 
+Egy olyan webshop létrehozása, amely alkalmas arra, hogy a vásárlók megvehessék az újabb, akár friss megjelenésű könyveket. Letisztult, modern stílusban, hogy a vásárlóknak átlátható legyen a megjelenő oldal, és könnyen eligazodhassanak a webshopban.
+A kínálatban nem csak egyetlen kiadó által kiadott könyv található meg, szinte bármelyik kiadó könyvét megvehetik, akár az eredeti nyelvű kötetet is. Ez a megoldás nagyban megkönnyíti a vásárlók helyzetét, mivel nem kell különböző helyekről beszerezniük az általuk választott könyveket, megtehetik egyetlen webshopon.
+A webshopban szereplő termékeket rendszeresen frissítik, mivel a könyves piac folyamatosan újabb könyvekkel bővül. Napjainkban felkapottá vált az éldekorált kiadás is, így a kiadók akár utánnyomtathatják a korábban kiadott, esetleg elfogyott köteteiket.
+A webshop ugyanarra a sémára épül, mint a már megszokott webáruházak, a felhasználó kedve szerint tud válogatni a különféle kiadók könyvei között. A weboldal tulajdonságai tartalmazzák:
+
+- Regisztráció
+- Bejelentkezés
+- Könyvek vásárlása
+- Könyvekre való szűrés
+- Termékleírások és képek
+- Könyvek értékelése
+- Rendeléskezelés és ügyfélszolgálat
+- Hatékony keresőfunkció
+- Rendeléskövetés
 
 
 ## 6. Követelménylista
