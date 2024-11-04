@@ -6,6 +6,9 @@ Napjainkban számos könyves weboldal és webshop elavulttá vált: sok esetben 
 
 ## 2. Vágyálom rendszer 
 
+Célunk egy olyan könyves webshop létrehozása, amely a különböző kiadók általi köteteket egy helyről beszerezhetővé, megvásárolhatóvá tegye, illetve amely könnyen kezelhető, áttekinthető felületet biztosít a vásárlóknak. A kínálatban szereplő termékek kimagasó minőségűek, a gondos csomagolásuk miatt pedig sérülésmentesen érkezhetnek meg váásárlóinkhoz.
+Az oldal megjelenése és stílusa modern és letisztult, a felületen könnyen el lehet igazodni. A vásárlók által egy közösséget is kialakíthatunk, ahol az olvasók leírhatják és megoszthatják a véleményüket az adott könyvről. A felhasználókak lehetőséget nyújtunk arra, hogy kedvenc köteteik mellé beszerezhessék az általuk kedvelt könyves termékeiket, mint például a bögre és a vászontáska, amiken közkedvelt idézetek szerepelhetnek könyvekből.
+A regisztrált felhasználók személyre szabhatják profilukat, illetve megrendeléseiket nyomon tudják követni. Az előrendelt könyvek megjelenéséről azonnal értesítést kaphatnak, illetve az akciókról is.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
