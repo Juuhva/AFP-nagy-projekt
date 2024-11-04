@@ -170,3 +170,5 @@ A tesztelés során különböző operációs rendszereken (IOS, Android, Window
 
 ## 12. Karbantartási terv
 
+Fontos ellenőrizni:
+*	Az oldal kritikus információi nem lehetnek elérhetőek az arra nem felhatalmazott felhasználók számára, ilyenek például a bejelentkezési adatok, a fizetési adatok.
