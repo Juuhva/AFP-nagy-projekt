@@ -81,7 +81,7 @@ A rendszer egy szerver (host) gépen fut, melyet a felhasználók (kliensek) egy
 | Felhasználói jogkör | Jogok                                                                                                                                                                                                                   |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | no_login | Bejelentkezés és regisztráció, a termékek megtekintése, ügyfélszolgálat elérése |
-| uset     | Termékek megtekintése és vásárlása, rendelés leadása, törlése és követése, saját profil szerkesztése és törlése, értékelés írása a termékre, ügyfélszolgálat elérése |
+| user     | Termékek megtekintése és vásárlása, rendelés leadása, törlése és követése, saját profil szerkesztése és törlése, értékelés írása a termékre, ügyfélszolgálat elérése |
 | admin    | Termékek törlése és hozzáadása, értékelés törlése, profilok törlése, ügyfélszolgálati segítségnyújtás |
 | delivery | A rendelések állapotának a módosítása |
 
