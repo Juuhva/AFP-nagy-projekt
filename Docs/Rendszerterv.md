@@ -153,6 +153,8 @@ A rendszer egy szerver (host) gépen fut, melyet a felhasználók (kliensek) egy
 
 ## 9. Implementációs terv
 
+Laravel kezeli a backend-et, a frontend-et pedig JavaScript, CSS és PHP.
+
 ## 10. Tesztterv
 
 A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata,
