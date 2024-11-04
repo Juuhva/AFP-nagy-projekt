@@ -55,6 +55,8 @@ Piaci szerep:
 
 ## 6. Használati esetek
 
+1. Vásárlás: A felhasználó kiválasztja az általa megvásárolni kívánt terméket vagy termékeket, elindítja a fizetési tranzakciót és amint végrehajtódott, megtörtént a vásárlás. A megrendelését pedig nyomon követheti.
+2. Kapcsolattartás: A felhasználók első sorban a könyvekre tudnak csak véleményezést írni, amivel segíthetnek egy másik vásárlónak eldönteni a kötet megvételét. A felhasználók bármilyen probléma vagy kérdés esetén kapcsolatba tudnak lépni az ügyfélszolgálattal email-en keresztül.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
