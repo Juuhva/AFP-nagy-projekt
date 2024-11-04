@@ -63,12 +63,25 @@
 
 ### Funkcionális követelmények
 
+| ID | Megnevezés               | Leírás                                                                                                                                                     |
+|----|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| K1 | Bejelentkezési oldal     | Az egyes funkciók eléréséhez előbb ezen az oldalon kell azonosítania magát a felhasználónak. |
+| K2 | Termékböngésző           | A felhasználó itt láthatja a webshopon található termékek széles választékát, a terméket kosárba tudja tenni vagy el tudja érni a termékspecifikus oldalt. |
+| K3 | Termékspecifikus oldal   | Ezen az oldalon a felhasználó részletesebb leírást kaphat egyes, az oldalon kapható termékekről, a terméket kosárba tudja tenni vagy akár értékelni tudja azt. |
+| K4 | Kosár                    | A felhasználó ezen az oldalon láthatja az általa választott termékeket, innen tud tovább menni a rendelés leadására és befejezésére. |
+| K5 | Profil oldal             | Ezen az oldalon a felhasználó a saját adatait szerkesztheti. |
+| K6 | Regisztrációs oldal      | Ezen az oldalon a felhasználó meg tudja adni az adatait, amik szükségesek egyes funkciók eléréséhez. |
+| K7 | Kapcsolatfelvételi oldal | A felhasználó itt tudja felvenni a kapcsolatot az ügyfélszolgálattal bármilyen kérdés esetén, legyen az rendeléssel kapcsolatos vagy megjelenéssel. |
+| K8 | Csomagkövetési oldal     | Ezen az oldalon jelennek meg a felhasználó rendelései, annak állapota és a várható szállításának ideje. |
 
 
 
 ### Nemfunkcionális követelmények
 
-
+| ID  | Megnevezés                             | Leírás                                                                                                 |
+|-----|----------------------------------------|--------------------------------------------------------------------------------------------------------|
+| K9  | Modern, letisztult oldaldizájn | Maga az oldal dizájnja, a színek és a betűk nem hivalkodóak, egyszerűen áttekinthető oldalt nyújtanak. |
+| K10 | Könnyen kezelhető, átlátható felület | Az oldalak egyszerűen használhatóak, átláthatóak legyenek és ne legyenek zsúfoltak. |
 
 ## 5. Funkcionális terv
 
