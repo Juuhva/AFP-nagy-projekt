@@ -30,15 +30,6 @@ Felhasználóink könnyen eligazodnak a weboldalon, a könyvek között egyszer�
 	-   Habóczki Szabolcs
 	-   Csonka Mihály
 
-
-### 2.1 Projektszerepkörök, felelőségek
-
-
-
-### 2.2 Projektmunkások és felelőségek
-
-
-
 ### 2.3 Ütemterv
 
 
