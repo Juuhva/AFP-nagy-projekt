@@ -1,6 +1,8 @@
 ## 1. A rendszer célja
 
-
+Az Eviscerate Kft. azt a megbízást kapta, hogy készítsen egy modern és letisztult stílusú webshopot, ahol a felhasználók különböző kiadók által kiadott és forgalmazott könyveket tudnak vásárolni. A webshop kitűnik a többi könyveket áruló webáruház mellett az átláthatóság, dizájn terén, illetve a könyveket akár egy helyről is beszerezhetik a vásárlók.
+Az Eviscerate Kft. elkötelezett amellett, hogy a Könyvkuckó webshop kielégítse a könyvmolyok minden igényét, mindezt egy jól kezelhető felületen keresztül. Ez a projekt az általunk fejlesztett egyedi megoldásokkal fogja elősegíteni azt, hogy megkönnyítsük az olvasni vágyók életét, rengeteg kiadó kötetét egy helyre gyűjtjük össze.
+Felhasználóink könnyen eligazodnak a weboldalon, a könyvek között egyszerűen tudnak keresni vagy szűrni. A vásárlás után a rendeléseket nyomon tudja követni a felhasználó, így mindig naprakészen láthatja csomagja állapotát. Oldalunk törekszik a sérülésmentes szállításra, a lehető leggondosabban csomagoljuk be a megrendelt termékeket. Sérülés esetén a felhasználó kapcsolatba léphet az ügyfélszolgálatunkkal, ahol segítőkészen segítséget nyújtanak a vásárlónak, az érintett könyvet pedig kicseréljük.
 
 ## 2. Projektterv
 
