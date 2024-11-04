@@ -76,11 +76,37 @@
 
 ### 5.1 Rendszerszereplők
 
+A rendszer egy szerver (host) gépen fut, melyet a felhasználók (kliensek) egy webböngészőn keresztül érhetnek el. A felhasználók között jogosultságok oszlanak meg, ezek:
 
+| Felhasználói jogkör | Jogok                                                                                                                                                                                                                   |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| no_login | Bejelentkezés és regisztráció, a termékek megtekintése, ügyfélszolgálat elérése |
+| uset     | Termékek megtekintése és vásárlása, rendelés leadása, törlése és követése, saját profil szerkesztése és törlése, értékelés írása a termékre, ügyfélszolgálat elérése |
+| admin    | Termékek törlése és hozzáadása, értékelés törlése, profilok törlése, ügyfélszolgálati segítségnyújtás |
+| delivery | A rendelések állapotának a módosítása |
 
 ### 5.2 Menü-hierarchia:
 
-
+* Könyvkuckó Felület: 
+	- Felhasználó
+		- Kínálat böngészése, termékek megtekintése
+		- GYIK oldal, ügyfélszolgálati elérhetőségek oldal
+		- Bejelentkezés
+	- Belépett felhasználó
+		- Kínálat böngészése, termékek megtekintése
+		- GYIK oldal, ügyfélszolgálati elérhetőségek oldal
+		- Profil szerkesztése, törlése
+		- Rendelés leadása, törlése
+		- Értékelés írása
+	- Admin felhasználó
+		- Felhasználók törlése
+		- Termékek törlése, hozzáadása
+		- Értékelések törlése
+		- Rendelések törlése
+ * Futárszolgálat Felület: (csak futárszolgálatnak elérhető)
+	- Az oldal csak "delivery", azaz futárszolgálatnak elérhető bejelentkezés után
+ 		- Rendelések áttekintése
+ 		- Rendelések állapotának szerkesztése
 
 ## 6. Fizikai környezet
 
