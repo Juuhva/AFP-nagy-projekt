@@ -9,6 +9,20 @@ Napjainkban számos könyves weboldal és webshop elavulttá vált: sok esetben 
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
+A könyves tartalommal szolgáló oldalak vagy webáruházak különleges piaci réteget szolgálnak ki. Ezen webshopok általában különféle kiadók által vannak fenntartva, így a vásárlónak több oldalról szükséges rendelnie abban az esetben, ha az általa megvásárolni kívánt könyveket más és más kiadók forgalmazzák.
+
+A könyves webshopok napjainkban igazán különleges helyet foglalnak el az online vásárlás és piac világában, ennek okai:
+
+- Célcsoport: A könyves webshopok azokat a vásárlókat célozzák első sorban, akik érdeklődnek a könyvek iránt, szeretnek olvasni vagy akár érdekeltek a friss megjelenésű könyvek iránt.
+- Könyves termékek: Különféle könyvek mellett lehetőség van olyan termékek vásárlására is, amik könyvekhez kapcsolódhatnak. Ilyen például vászontáska vagy bögre, amin egy kedvelt idézet szerepel.
+- Akciók és raktárvásár: A közeli megjelenésű kötetek akciósan előrendelhetőek, ez addig él, amíg meg nem jelenik országosan az adott könyv. A raktárvásár elindulásától a készlet erejéig különféle kedvezmények várják a vásárlókat, akár kisebb szépséghibás kötetek is beszerezhetőek kedvező áron.
+
+Piaci szerep:
+
+- Piachelyzet: A könyveket forgalmazó webshopok napjainkban sokak által látogatottak, közkedvelt az olvasni vágyók körében.
+- Vásárlás: Lehetővé teszik ezek az áruházak, hogy olyan könyveket vásárolhassunk, amik évekkel korábban megjelentek vagy akár még csak a közeljövőben van a megjelenésük.
+- Egyszerűség: A webshopon könnyen el lehet igazodni, az ajándéktárgyakon kívül csak könyveket értékesít.
+- Vásárlói közösség: A webshop egyben egy közösségi felület is, ahol a vásárlók leírhatják a véleményüket a megjelent könyvekkel kapcsolatban, akár ezzel is bíztatva könyvmoly társukat a kötet beszerzésére. 
 
 ## 4. Igényelt üzleti folyamatok modellje
 
