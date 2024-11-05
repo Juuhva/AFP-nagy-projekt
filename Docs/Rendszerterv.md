@@ -172,3 +172,5 @@ A tesztelés során különböző operációs rendszereken (IOS, Android, Window
 
 Fontos ellenőrizni:
 *	Az oldal kritikus információi nem lehetnek elérhetőek az arra nem felhatalmazott felhasználók számára, ilyenek például a bejelentkezési adatok, a fizetési adatok.
+*	Felhasználói értékeléseket csak az admin törölheti.
+*	A termékek hozzáadására és törlésére csak az adminnak lehet jogosultsága.
