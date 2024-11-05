@@ -60,14 +60,46 @@ Piaci szerep:
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
+K1, K2, K3: A felhasználót, amikor belép a könyves webshop online felületére, a Főoldal fogadja (K1), ahol az ajánlatok és kiemelt könyvek böngészhetők. Innen navigálhat a webshop különböző kategóriái között, amelyek a Kínálat modulban találhatók (K2), vagy használhatja a Felhasználó modult (K3) a bejelentkezéshez vagy a regisztrációhoz.
+K4: A regisztrált felhasználók saját Profil oldalukon (K4) megtekinthetik és módosíthatják személyes adataikat, rendelési előzményeiket, és kezelhetik a beállításaikat.
+K5, K6, K7: A felhasználók a Kosár modulban (K5) láthatják az általuk kiválasztott könyveket. Az oldal tartalmazza a kosár tartalmának kezelését is (K6), ahol a vásárlók hozzáadhatják kuponjaikat. A Felhasználókezelés modulban található a Regisztráció (K6) és a Bejelentkezés (K7) felülete, valamint a Profilkezelés modul (K8) a regisztrált profil szerkesztéséhez.
+K8, K9: A Keresőfunkció (K9) lehetővé teszi a felhasználók számára, hogy könyveket találjanak szűrési opciók segítségével, például cím, szerző, műfaj alapján. A haladó keresés mellett szöveges és egyéb keresési módok is rendelkezésre állnak.
+K10, K11, K12: A Kínálat modulban található Értékelés (K10) lehetőséget biztosít arra, hogy a felhasználók visszajelzést adjanak egy adott termékről és annak szerzőjéről. A Termékleírás (K11) tartalmazza a könyv részleteit, például képeket, leírást, szerzőt, fordítót, megjelenési adatokat, ISBN-t, és az árát. A vásárlók kérdéseik és problémáik esetén igénybe vehetik az Ügyfélszolgálat modulját (K12), amely elérhető telefonon és e-mailben is.
+K13: A vásárlás után a Rendeléskövetés modul (K13) segítségével a felhasználó nyomon követheti a megvásárolt könyvek állapotát és szállítási folyamatát.
+K14: A webshop GYIK szekciójában (K14) a felhasználók válaszokat találhatnak a leggyakrabban felmerülő kérdésekre, például a rendelés menetével, fizetési opciókkal és szállítással kapcsolatban.
 
 ## 8. Képernyőtervek
 
 
 ## 9. Forgatókönyvek
 
+Vendég üdvözlő oldal és főoldal:
+ * Minden felhasználó, aki meglátogatja a webshopot, a főoldalra érkezik, ahol könyvajánlatok, promóciók és népszerű könyvek jelennek meg. A vendégek böngészhetnek a kínálat között, de vásárláshoz bejelentkezés szükséges.
+Bejelentkezés:
+ * A Bejelentkezés gombra kattintva a felhasználó a belépési oldalra kerül, ahol megadhatja regisztrált adatait. Sikeres bejelentkezés után a felhasználó visszakerül a főoldalra, immár hozzáférve a profiljához és a további funkciókhoz.
+űRegisztráció:
+ * A Regisztráció gombra kattintva a felhasználó a regisztrációs felületre jut, ahol megadhatja személyes adatait, létrehozva egy új profilt. A regisztráció után szintén visszakerül a főoldalra, ahol bejelentkezve folytathatja a vásárlást.
+Profil kezelése:
+ * Bejelentkezés után a felhasználó a Profil menüpontban megtekintheti profiljával kapcsolatos opciókat, mint például:
+    - Profil szerkesztése: A felhasználó itt módosíthatja személyes adatait.
+    - Rendelések kezelése: A felhasználó itt megtekintheti és kezelheti korábbi és aktuális rendeléseit.
+    - Üzenetek: Az üzenetek menüben megnézheti a vásárlásokhoz és eladásokhoz kapcsolódó kommunikációt.
+Böngészés és keresés:
+  * A felhasználók böngészhetnek a főoldalon kiemelt promóciós könyvek között.
+  * A Kereső használatával kereshetnek könyvcímek, szerzők vagy műfaj alapján, illetve szűrők és hangvezérlés segítségével pontosíthatják a keresést.
+Kosár:
+  * A Kosár gombra kattintva megtekinthetik, milyen könyveket választottak ki vásárlásra. Itt módosíthatják a kosár tartalmát, aktiválhatnak kuponokat, vagy folytathatják a fizetési folyamatot.
+Termékoldal:
+  * Ha a felhasználó egy könyvre kattint, a könyv termékoldalára érkezik, ahol részletes leírást, képeket, árat és elérhetőségi információkat láthat.
+  * Innen a Kosárba helyezés gombbal hozzáadhatja a könyvet a kosarához, amennyiben az elérhető, vagy az Azonnali vásárlás gombbal közvetlenül megkezdheti a vásárlási folyamatot.
 
 ## 10. Funkció - követelmény megfeleltetése
 
+Id | Követelmény |	Funkció |
+| :---: | --- | --- |
+| K1 | Egyszerű, Esztétikus |	A webshop dizájnja egyszerű és felhasználóbarát, a főoldalon a legnépszerűbb könyvek és promóciók könnyen elérhetők. Az esztétika a középkori stílust tükrözi, miközben a navigáció intuitív, a termékek és kategóriák jól láthatóak és könnyen hozzáférhetők.
+| K2 |	Sokszínű választék |	A webshop különféle középkori témájú könyveket kínál, az adott időszakra és stílusra vonatkozó széles választékkal, beleértve a középkori történelmet, irodalmat, művészetet és kultúrát. A vásárlók könnyen böngészhetnek különböző kategóriák között, mint például történelem, fantasy, vagy középkori regék.
+| K3 |	Gyorsaság | A vásárlási folyamat gyors és egyszerű, a weboldal gyorsan betöltődik és válaszol a felhasználói interakciókra. A fizetés zökkenőmentes, különböző lehetőségeket kínálva, mint bankkártyás, PayPal, vagy egyszerű banki átutalás. A tranzakciók gyorsak, a rendelési visszaigazolás azonnal megtörténik.
+| K4 |	Határtalan |	A webshop képes bármennyi könyvet és terméket kezelni. Akár nagy mennyiségű könyvet is feltölthetünk, és minden termék könnyedén kereshető és kategorizálható. A webshop rugalmasan kezeli a termékek folyamatos bővítését és frissítését, így biztosítva a folyamatos növekedést és a változatos választékot.
 
 ## 11. Fogalomtár
