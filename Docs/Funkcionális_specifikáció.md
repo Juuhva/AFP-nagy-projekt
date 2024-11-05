@@ -2,12 +2,30 @@
 
 ## 1. Jelenlegi helyzet leírása
 
+Napjainkban számos könyves weboldal és webshop elavulttá vált: sok esetben rendszerezetlenek és nehezen átláthatók a felhasználók számára. Az érdeklődés egyre inkább a modern, letisztult, és könnyen kezelhető felületek felé fordul, miközben a régebbi webshopokat gyakran elhanyagolják, és nem fejlesztik tovább. Emiatt ezek az oldalak egyre kevésbé képesek versenyképesen részt venni az online kereskedelemben, és annak ellenére, hogy egykor megbízhatónak számítottak, nehezen tartják meg a közönségüket. Az elmúlt években az ilyen webshopok és kínálatuk iránti érdeklődés érezhetően csökkent, ami hatással van a bevételeikre, valamint a könyvek kiadására és nyomtatására. A régi oldalak modernizálása azonban várhatóan lendületet adna a forgalmuknak, és ez a helyzet kiváló lehetőséget nyújt a könyves weboldalak és webshopok számára, hogy újraépítsék kapcsolatukat az olvasóközönséggel, és fokozzák a könyvek iránti érdeklődést. Ugyanakkor fontos, hogy a közönség igényeinek változását folyamatosan figyelemmel kísérjék, és ezekhez igazodva alakítsák weboldalaikat. Az elavult webshopok számára az alkalmazkodás kulcsfontosságú, hiszen az új technológiák és trendek bevezetésével képesek lehetnek megőrizni versenyképességüket és fennmaradásukat az online piacon.
 
 ## 2. Vágyálom rendszer 
 
+Célunk egy olyan könyves webshop létrehozása, amely a különböző kiadók általi köteteket egy helyről beszerezhetővé, megvásárolhatóvá tegye, illetve amely könnyen kezelhető, áttekinthető felületet biztosít a vásárlóknak. A kínálatban szereplő termékek kimagasó minőségűek, a gondos csomagolásuk miatt pedig sérülésmentesen érkezhetnek meg vásárlóinkhoz.
+Az oldal megjelenése és stílusa modern és letisztult, a felületen könnyen el lehet igazodni. A vásárlók által egy közösséget is kialakíthatunk, ahol az olvasók leírhatják és megoszthatják a véleményüket az adott könyvről. A felhasználókak lehetőséget nyújtunk arra, hogy kedvenc köteteik mellé beszerezhessék az általuk kedvelt könyves termékeiket, mint például a bögre és a vászontáska, amiken közkedvelt idézetek szerepelhetnek könyvekből.
+A regisztrált felhasználók személyre szabhatják profilukat, illetve megrendeléseiket nyomon tudják követni. Az előrendelt könyvek megjelenéséről azonnal értesítést kaphatnak, illetve az akciókról is.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
+A könyves tartalommal szolgáló oldalak vagy webáruházak különleges piaci réteget szolgálnak ki. Ezen webshopok általában különféle kiadók által vannak fenntartva, így a vásárlónak több oldalról szükséges rendelnie abban az esetben, ha az általa megvásárolni kívánt könyveket más és más kiadók forgalmazzák.
+
+A könyves webshopok napjainkban igazán különleges helyet foglalnak el az online vásárlás és piac világában, ennek okai:
+
+- Célcsoport: A könyves webshopok azokat a vásárlókat célozzák első sorban, akik érdeklődnek a könyvek iránt, szeretnek olvasni vagy akár érdekeltek a friss megjelenésű könyvek iránt.
+- Könyves termékek: Különféle könyvek mellett lehetőség van olyan termékek vásárlására is, amik könyvekhez kapcsolódhatnak. Ilyen például vászontáska vagy bögre, amin egy kedvelt idézet szerepel.
+- Akciók és raktárvásár: A közeli megjelenésű kötetek akciósan előrendelhetőek, ez addig él, amíg meg nem jelenik országosan az adott könyv. A raktárvásár elindulásától a készlet erejéig különféle kedvezmények várják a vásárlókat, akár kisebb szépséghibás kötetek is beszerezhetőek kedvező áron.
+
+Piaci szerep:
+
+- Piachelyzet: A könyveket forgalmazó webshopok napjainkban sokak által látogatottak, közkedvelt az olvasni vágyók körében.
+- Vásárlás: Lehetővé teszik ezek az áruházak, hogy olyan könyveket vásárolhassunk, amik évekkel korábban megjelentek vagy akár még csak a közeljövőben van a megjelenésük.
+- Egyszerűség: A webshopon könnyen el lehet igazodni, az ajándéktárgyakon kívül csak könyveket értékesít.
+- Vásárlói közösség: A webshop egyben egy közösségi felület is, ahol a vásárlók leírhatják a véleményüket a megjelent könyvekkel kapcsolatban, akár ezzel is bíztatva könyvmoly társukat a kötet beszerzésére. 
 
 ## 4. Igényelt üzleti folyamatok modellje
 
@@ -37,6 +55,8 @@
 
 ## 6. Használati esetek
 
+1. Vásárlás: A felhasználó kiválasztja az általa megvásárolni kívánt terméket vagy termékeket, elindítja a fizetési tranzakciót és amint végrehajtódott, megtörtént a vásárlás. A megrendelését pedig nyomon követheti.
+2. Kapcsolattartás: A felhasználók első sorban a könyvekre tudnak csak véleményezést írni, amivel segíthetnek egy másik vásárlónak eldönteni a kötet megvételét. A felhasználók bármilyen probléma vagy kérdés esetén kapcsolatba tudnak lépni az ügyfélszolgálattal email-en keresztül.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
