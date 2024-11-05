@@ -40,15 +40,26 @@ Felhasználóink könnyen eligazodnak a weboldalon, a könyvek között egyszer�
 
 ## 3. Üzleti folyamatok modellje
 
-
+![oldal felületének felépitése](../Img/businesss.png)
 
 ### 3.1 Üzleti szereplők
 
+Az oldal regisztráció nélkül is használható, azonban bizonyos funkciók csak regisztrált felhasználók számára érhetők el. Az alábbiakban bemutatjuk a különböző üzleti szereplőket és az általuk elérhető szolgáltatásokat:
 
+Vendég Felhasználók:
+* Termékek megtekintése: A látogatók regisztráció nélkül is megtekinthetik az oldalon elérhető árucikkeket.
+* Kosár használata: A vendégek kosárba helyezhetik az általuk kívánt termékeket, hogy később vásárlás előtt áttekintsék őket.
+
+Regisztrált Felhasználók:
+* Vásárlás: A regisztrált felhasználók képesek végrehajtani a vásárlási tranzakciókat, beleértve a fizetési lehetőségeket.
+* Csomagkövetés: A vásárlók hozzáférhetnek a megrendelt termékeik státuszához és nyomon követhetik azok szállítási folyamatát.
+* Árufeltöltés: A regisztrált felhasználók, amennyiben eladni kívánnak, feltölthetik saját termékeiket a webshopra. Az árucikkek feltöltéséhez és kezeléséhez regisztráció szükséges.
+
+A regisztrált felhasználók számára a webshop további kényelmi szolgáltatásokat is biztosít, mint például a profilkezelést, rendelési előzmények megtekintését és személyre szabott ajánlásokat.
 
 ### 3.2 Üzleti folyamatok
 
-
+A felhasználó regisztráció nélkül böngészhet és kosárba helyezhet termékeket, de vásárláshoz regisztráció szükséges, amely után hozzáférhet a vásárlási funkciókhoz.
 
 ## 4. Követelmények
 
@@ -148,18 +159,30 @@ Laravel kezeli a backend-et, a frontend-et pedig JavaScript, CSS és PHP.
 
 ## 10. Tesztterv
 
-A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata,
-ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifikálása.
-A teszteléseket a fejlesztői csapat minden tagja elvégzi.
-A tesztek eredményeit a tagok dokumentálják külön fájlokba.
+Tesztelés végrehajtása:
+A teszteket a fejlesztői csapat minden tagja elvégzi, biztosítva ezzel a különböző nézőpontok és tapasztalatok figyelembevételét.
+A tesztek eredményeit a tagok dokumentálják külön fájlokban, ezáltal nyomon követhetővé téve a tesztelési folyamatot.
 
-A tesztelés során a szoftver megfelelő működését vizsgáljuk. Amennyiben az elvártnak megfelelő eredményt kapunk, a teszt eset sikeresnek tekinthető, ellenkező esetben a hibát rögzítjük a teszt jegyzőkönyvben. Ezt követően a megtalált hibákat javítjuk a szoftverben, és újbóli tesztelésnek vetjük alá a rendszert.
+Szoftver működésének ellenőrzése:
+A tesztelés során a szoftver megfelelő működését vizsgáljuk. Az elvárt eredmények alapján a teszt eseteket sikeresnek vagy sikertelennek minősítjük.
+Amennyiben az elvártnak megfelelő eredményt kapunk, a teszt eset sikeresnek tekinthető.
 
-A tesztelés során különböző operációs rendszereken (IOS, Android, Windows) és különböző böngészőkben (Chrome, firefox, Opera, Safari, Brave) vizsgáljuk az oldal megfelelő működését.
+Ellenkező esetben a hibát rögzítjük a teszt jegyzőkönyvben, amely tartalmazza a hiba leírását és a reprodukálás lépéseit.
+Hibajavítás és újbóli tesztelés:
+A megtalált hibákat javítjuk a szoftverben, és azután a javításokat újbóli tesztelésnek vetjük alá, hogy biztosítsuk a hiba kiküszöbölését és a rendszer stabilitását.
+
+Környezetek és platformok:
+A tesztelés során különböző operációs rendszereken (iOS, Android, Windows) és böngészőkben (Chrome, Firefox, Opera, Safari, Brave) vizsgáljuk az oldal megfelelő működését.
+Ezzel biztosítjuk, hogy a webshop minden felhasználó számára, függetlenül a használt eszköztől, zökkenőmentes élményt nyújtson.
 
 ## 11. Telepítési terv
 
+A webshop eléréséhez csupán egy internetkapcsolattal rendelkező eszköz szükséges, amely támogatja az internetböngészést. Az alábbi operációs rendszerek és böngészők mindegyike kompatibilis a webshop használatával:
 
+Operációs rendszerek: iOS, Android, Linux, Windows, macOS
+Böngészők: Chrome, Firefox, Opera, Safari, Brave, Edge, és más modern böngészők
+
+Az oldal minden eszközön és platformon elérhető, biztosítva a zökkenőmentes felhasználói élményt.
 
 ## 12. Karbantartási terv
 
