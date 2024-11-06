@@ -2,7 +2,7 @@
 
 ## 1. Áttekintés
 
-Ez a dokumentum a könyv-webshopunk fejlesztéséhez készült követelményspecifikációt tartalmazza. Felméréseink szerint a felhasználók a hagyományos webshopokat elavultnak és nehezen használhatónak találják. Célunk, hogy egy letisztult, átlátható felületet biztosítsunk, és emellett antik és ritka kiadványokkal is kedvezzünk a könyvrajongóknak.
+Felméréseink szerint a felhasználók a hagyományos webshopokat elavultnak és nehezen használhatónak találják. Célunk, hogy egy letisztult, átlátható felületet biztosítsunk, és emellett antik és ritka kiadványokkal is kedvezzünk a könyvrajongóknak.
 
 Fejlesztésünk fő célja a kiváló felhasználói élmény, amit egyszerű navigációval és széles körű keresési lehetőségekkel kívánunk elérni. Fontos, hogy vásárlóink könnyen és gyorsan megtalálhassák, majd megvásárolhassák a keresett könyveket. A rendszer emellett közösségi funkciókat is kínál, például értékelési és véleményezési lehetőségeket, amelyek elősegítik az olvasói közösség építését és erősítik a közösségi élményt. A webshop továbbá egy másodlagos piacot is biztosít, ahol az olvasók használt könyveiket eladhatják vagy cserélhetik.
 
