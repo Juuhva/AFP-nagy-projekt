@@ -4,7 +4,7 @@
 
 Felméréseink szerint a felhasználók a hagyományos webshopokat elavultnak és nehezen használhatónak találják. Célunk, hogy egy letisztult, átlátható felületet biztosítsunk, és emellett antik és ritka kiadványokkal is kedvezzünk a könyvrajongóknak.
 
-Fejlesztésünk fő célja a kiváló felhasználói élmény, amit egyszerű navigációval és széles körű keresési lehetőségekkel kívánunk elérni. Fontos, hogy vásárlóink könnyen és gyorsan megtalálhassák, majd megvásárolhassák a keresett könyveket. A rendszer emellett közösségi funkciókat is kínál, például értékelési és véleményezési lehetőségeket, amelyek elősegítik az olvasói közösség építését és erősítik a közösségi élményt. A webshop továbbá egy másodlagos piacot is biztosít, ahol az olvasók használt könyveiket eladhatják vagy cserélhetik.
+Fejlesztésünk fő célja a kiváló felhasználói élmény, amit egyszerű navigációval és széles körű keresési lehetőségekkel kívánunk elérni. Fontos, hogy vásárlóink könnyen és gyorsan megtalálhassák, majd megvásárolhassák a keresett könyveket. A rendszer emellett közösségi funkciókat is kínál, például értékelési és véleményezési lehetőségeket, amelyek elősegítik az olvasói közösség építését és erősítik a közösségi élményt.
 
 ## 2. Jelenlegi helyzet
 
@@ -14,12 +14,12 @@ Napjainkban rengeteg könyves weboldal és webshop elavulttá vált, gyakran ren
 ## 3. Vágyálom rendszer
 
 A vágyálom rendszer olyan modern és intuitív platformot biztosít, amely lehetővé teszi a felhasználóknak, hogy gyorsan és könnyedén böngésszenek, keresgéljenek és vásároljanak a webshopban. Az alábbi főbb jellemzők biztosítják a vásárlók számára az optimális élményt:    
--Felhasználóbarát és letisztult design: Minimalista és könnyen navigálható felület -amely modern vizuális élményt nyújt. 
--Közösségi élmény támogatása: A vásárlók értékeléseket, véleményeket oszthatnak meg, ezzel közösségi térként is szolgál a webshop.
--Széles körű kínálat: A webshop különféle műfajokat és kiadókat kínál, beleértve új és antik könyveket is, valamint limitált és díszkiadásokat. 
--Személyre szabott ajánlások: Az oldal az olvasók korábbi vásárlásai és érdeklődési körei alapján egyéni könyvajánlásokat jelenít meg, hogy új szerzőket és műveket fedezhessenek fel. 
--Mobilbarát kialakítás: Teljes funkcionalitással rendelkezik mobilon és tableten is, így bárhol könnyen elérhető.
--Kereső és szűrő opciók: Hatékony keresőmotor és szűrési lehetőségek segítik a vásárlókat a könnyebb és gyorsabb böngészésben.
+- Felhasználóbarát és letisztult design: Minimalista és könnyen navigálható felület -amely modern vizuális élményt nyújt. 
+- Közösségi élmény támogatása: A vásárlók értékeléseket, véleményeket oszthatnak meg, ezzel közösségi térként is szolgál a webshop.
+- Széles körű kínálat: A webshop különféle műfajokat és kiadókat kínál, beleértve új és antik könyveket is, valamint limitált és díszkiadásokat. 
+- Személyre szabott ajánlások: Az oldal az olvasók korábbi vásárlásai és érdeklődési körei alapján egyéni könyvajánlásokat jelenít meg, hogy új szerzőket és műveket fedezhessenek fel. 
+- Mobilbarát kialakítás: Teljes funkcionalitással rendelkezik mobilon és tableten is, így bárhol könnyen elérhető.
+- Kereső és szűrő opciók: Hatékony keresőmotor és szűrési lehetőségek segítik a vásárlókat a könnyebb és gyorsabb böngészésben.
     
 ## 4. Jelenlegi üzleti folyamatok modellje
 
@@ -65,11 +65,11 @@ A webshop ugyanarra a sémára épül, mint a már megszokott webáruházak, a f
 
 ## 7. Fogalomtár
 
--Webshop: Olyan online áruház, amely termékek széles választékát kínálja megvásárlásra, jelen esetben könyveket.
--Felhasználói profil: Egyéni fiók, ahol a vásárlók személyes adatai, rendelési előzményei és kedvencei találhatók.
--Keresőfunkció: Olyan funkció, amely lehetővé teszi, hogy a vásárlók kulcsszavak alapján keresgéljenek a webshopban.
--Kosár: A virtuális tároló, amelybe a vásárlók összegyűjthetik azokat a könyveket, amelyeket meg kívánnak vásárolni.
--Termékleírás: A webshopon megjelenő termékek részletes bemutatása, beleértve a főbb információkat, például a szerzőt, kiadót, oldalszámot, ISBN-számot, árat és elérhetőséget.
--Értékelés: A vásárlók által adott visszajelzés a megvásárolt termékekről, amely segíthet más felhasználóknak a választásban.
--Rendeléskövetés: Funkció, amely lehetőséget ad a felhasználónak, hogy nyomon kövesse a rendelésének státuszát.
--Közösségi élmény: A webshop olyan funkciókat kínál, ahol a vásárlók megoszthatják véleményeiket, és kapcsolatba léphetnek más könyvszerető felhasználókkal.
+- Webshop: Olyan online áruház, amely termékek széles választékát kínálja megvásárlásra, jelen esetben könyveket.
+- Felhasználói profil: Egyéni fiók, ahol a vásárlók személyes adatai, rendelési előzményei és kedvencei találhatók.
+- Keresőfunkció: Olyan funkció, amely lehetővé teszi, hogy a vásárlók kulcsszavak alapján keresgéljenek a webshopban.
+- Kosár: A virtuális tároló, amelybe a vásárlók összegyűjthetik azokat a könyveket, amelyeket meg kívánnak vásárolni.
+- Termékleírás: A webshopon megjelenő termékek részletes bemutatása, beleértve a főbb információkat, például a szerzőt, kiadót, oldalszámot, ISBN-számot, árat és elérhetőséget.
+- Értékelés: A vásárlók által adott visszajelzés a megvásárolt termékekről, amely segíthet más felhasználóknak a választásban.
+- Rendeléskövetés: Funkció, amely lehetőséget ad a felhasználónak, hogy nyomon kövesse a rendelésének státuszát.
+- Közösségi élmény: A webshop olyan funkciókat kínál, ahol a vásárlók megoszthatják véleményeiket, és kapcsolatba léphetnek más könyvszerető felhasználókkal.
