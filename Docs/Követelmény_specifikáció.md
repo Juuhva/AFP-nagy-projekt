@@ -13,7 +13,6 @@ Napjainkban rengeteg könyves weboldal és webshop elavulttá vált, gyakran ren
 
 ## 3. Vágyálom rendszer
 
-A vágyálom rendszer olyan modern és intuitív platformot biztosít, amely lehetővé teszi a felhasználóknak, hogy gyorsan és könnyedén böngésszenek, keresgéljenek és vásároljanak a webshopban. Az alábbi főbb jellemzők biztosítják a vásárlók számára az optimális élményt:    
 - Felhasználóbarát és letisztult design: Minimalista és könnyen navigálható felület -amely modern vizuális élményt nyújt. 
 - Közösségi élmény támogatása: A vásárlók értékeléseket, véleményeket oszthatnak meg, ezzel közösségi térként is szolgál a webshop.
 - Széles körű kínálat: A webshop különféle műfajokat és kiadókat kínál, beleértve új és antik könyveket is, valamint limitált és díszkiadásokat. 
