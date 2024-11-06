@@ -120,23 +120,26 @@ A rendszer egy szerver (host) gépen fut, melyet a felhasználók (kliensek) egy
 
 ### Vásárolt szoftverkomponensek, valamint esetleges külső rendszerek
 
-
+Nincsenek vásárolt szoftverkomponensek
 
 ### Hardver topológia
 
-
+Grafikus operációs rendszer, amely képes böngészőt futtatni.
 
 ### Fizikai alrendszerek
 
-
+Kliensgép: A felhasználók által használt PC-k, amelyek grafikus operációs rendszerrel rendelkeznek.
+Szervergép: Az adatbázis és a weboldal tárolására alkalmas. A kliensgépek a szerverrel kommunikálnak.
 
 ### Fejlesztő eszközök
 
-
+- Visual Studio Code
+- Webböngésző
+- XAMPP (MySQL)
 
 ## 7. Architekturális terv
 
-
+A felhasználóknak internetkapcsolatra és egy webböngészőre van szükségük a szolgáltatás igénybevételéhez. Az oldalt egy URL beírásával lehet elérni. A felhasználóknak nem kell az adatbázishoz közvetlenül csatlakozniuk, ezt a weboldal automatikusan megoldja.
 
 ## 8. Adatbázis terv
 
