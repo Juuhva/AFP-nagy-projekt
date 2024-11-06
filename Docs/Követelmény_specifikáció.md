@@ -2,7 +2,9 @@
 
 ## 1. Áttekintés
 
+Felméréseink szerint a felhasználók a hagyományos webshopokat elavultnak és nehezen használhatónak találják. Célunk, hogy egy letisztult, átlátható felületet biztosítsunk, és emellett antik és ritka kiadványokkal is kedvezzünk a könyvrajongóknak.
 
+Fejlesztésünk fő célja a kiváló felhasználói élmény, amit egyszerű navigációval és széles körű keresési lehetőségekkel kívánunk elérni. Fontos, hogy vásárlóink könnyen és gyorsan megtalálhassák, majd megvásárolhassák a keresett könyveket. A rendszer emellett közösségi funkciókat is kínál, például értékelési és véleményezési lehetőségeket, amelyek elősegítik az olvasói közösség építését és erősítik a közösségi élményt.
 
 ## 2. Jelenlegi helyzet
 
@@ -11,24 +13,16 @@ Napjainkban rengeteg könyves weboldal és webshop elavulttá vált, gyakran ren
 
 ## 3. Vágyálom rendszer
 
-Sajnálatos módon, napjainkban a középkori stílusú webshopok még mindig csak szűk piaci részesedéssel rendelkeznek az online kereskedelem
-területén. Bár egyre inkább növekszik az érdeklődés a középkori kultúra és stílus iránt, még mindig viszonylag kevés ilyen jellegű
-webshoppal találkozhat az ember a piacon. Továbbra is csak korlátozott mértékben vesznek részt az online kereskedelemben, az utóbbi
-időszakban tapasztalható növekvő érdeklődés a középkori kultúra iránt egyfajta lendületet adott ezen webshopok számára. Amellett viszont
-nem mehetünk el, hogy azok a középkori webshopok, amelyek kiváló minőségű termékeket kínálnak, és hitelesen idézik meg a középkor akkori
-atmoszféráját, sikeresen működnek. A közönség megszólítása és megtartása kulcsfontosságú ezen a területen. Az elmúlt években tapasztalható
-növekvő érdeklődés a középkori kultúra iránt jelentős hatást gyakorol a középkori stílusú webshopok piacára és jövedelmére. A középkori
-webshopok jövője igen ígéretesnek tűnik. A középkori életmód iránti érdeklődés növekedésével a webshopok forgalma is várhatóan tovább fog
-növekedni. A jelenlegi helyzet lehetőséget kínál a középkori webshopoknak arra, hogy kiszolgálják az érdeklődő közönséget, és az iparág 
-további növekedésére számíthatunk. Ugyanakkor a piaci szegmens még mindig kisebb a nagyobb trendekhez képest, és az ilyen jellegű vállalkozásoknak 
-továbbra is erőfeszítéseket kell tenniük, hogy elérjék és megtartsák vásárlóikat, miközben folyamatosan figyelemmel kísérik az igények változásait.
-A hiteles és minőségi termékek iránti kereslet továbbra is emelkedő tendenciát mutat. Összességében a középkori stílusú webshopoknak a fennmaradáshoz
-folyamatosan alkalmazkodniuk kell az üzleti környezet változásaihoz, és kihasználniuk az új trendek és technológiák nyújtotta lehetőségeket.
-
-
+- Felhasználóbarát és letisztult design: Minimalista és könnyen navigálható felület -amely modern vizuális élményt nyújt. 
+- Közösségi élmény támogatása: A vásárlók értékeléseket, véleményeket oszthatnak meg, ezzel közösségi térként is szolgál a webshop.
+- Széles körű kínálat: A webshop különféle műfajokat és kiadókat kínál, beleértve új és antik könyveket is, valamint limitált és díszkiadásokat. 
+- Személyre szabott ajánlások: Az oldal az olvasók korábbi vásárlásai és érdeklődési körei alapján egyéni könyvajánlásokat jelenít meg, hogy új szerzőket és műveket fedezhessenek fel. 
+- Mobilbarát kialakítás: Teljes funkcionalitással rendelkezik mobilon és tableten is, így bárhol könnyen elérhető.
+- Kereső és szűrő opciók: Hatékony keresőmotor és szűrési lehetőségek segítik a vásárlókat a könnyebb és gyorsabb böngészésben.
+    
 ## 4. Jelenlegi üzleti folyamatok modellje
 
-
+A könyveket értékesítő weboldalak manapság egy speciális és egyedi piaci szegmenst képviselnek az online térben. Ezek az oldalak általában olyan kiadványokat kínálnak, amelyek különleges irodalmi élményt nyújtanak, az olvasók figyelmét felkeltik, és a könyvek szeretetére építenek. A könyves webáruházak célcsoportját olyan olvasók és gyűjtők alkotják, akik érdeklődnek az irodalom különböző műfajai iránt, vagy éppen ritka, gyűjtői darabokat keresnek. Ezek a webshopok gyakran széles választékot kínálnak, beleértve a legújabb kiadásokat, klasszikus műveket és akár használt, antik könyveket is. Egyes oldalak személyre szabott, tematikus könyvcsomagokat állítanak össze, így az olvasó igényeihez és ízléséhez igazodva segítenek felfedezni új szerzőket és műveket. Fontos kiemelni, hogy a könyves webshopok nem csupán a könyvek egyszerű eladását célozzák meg, hanem közösségi élményt is nyújtanak. Az olvasók itt véleményt cserélhetnek, könyvajánlókat írhatnak, és megoszthatják olvasási élményeiket. Ezen kívül lehetőség van arra is, hogy az olvasók eladják használt vagy ritka könyveiket, így a weboldal egy másodlagos piac szerepét is betölti. Az ilyen oldalak sokszínű kínálata, amely magában foglalja az új és használt könyveket egyaránt, sokak számára vonzóvá teszi azokat. Összességében elmondható, hogy a könyveket árusító webáruházak releváns szerepet töltenek be a mai piacon, lehetőséget biztosítva mind az új könyvek vásárlására, mind pedig a használt könyvek értékesítésére. Az olvasók és gyűjtők számára ezek az oldalak gazdag választékot kínálnak, és egyben közösségi élményt is nyújtanak, ahol az irodalom szeretete összeköti a vásárlókat.
 
 ## 5. Igényelt üzleti folyamatok modellje
 
@@ -70,3 +64,11 @@ A webshop ugyanarra a sémára épül, mint a már megszokott webáruházak, a f
 
 ## 7. Fogalomtár
 
+- Webshop: Olyan online áruház, amely termékek széles választékát kínálja megvásárlásra, jelen esetben könyveket.
+- Felhasználói profil: Egyéni fiók, ahol a vásárlók személyes adatai, rendelési előzményei és kedvencei találhatók.
+- Keresőfunkció: Olyan funkció, amely lehetővé teszi, hogy a vásárlók kulcsszavak alapján keresgéljenek a webshopban.
+- Kosár: A virtuális tároló, amelybe a vásárlók összegyűjthetik azokat a könyveket, amelyeket meg kívánnak vásárolni.
+- Termékleírás: A webshopon megjelenő termékek részletes bemutatása, beleértve a főbb információkat, például a szerzőt, kiadót, oldalszámot, ISBN-számot, árat és elérhetőséget.
+- Értékelés: A vásárlók által adott visszajelzés a megvásárolt termékekről, amely segíthet más felhasználóknak a választásban.
+- Rendeléskövetés: Funkció, amely lehetőséget ad a felhasználónak, hogy nyomon kövesse a rendelésének státuszát.
+- Közösségi élmény: A webshop olyan funkciókat kínál, ahol a vásárlók megoszthatják véleményeiket, és kapcsolatba léphetnek más könyvszerető felhasználókkal.
