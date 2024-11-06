@@ -29,8 +29,6 @@ Piaci szerep:
 
 ## 4. Igényelt üzleti folyamatok modellje
 
-Az igényelt üzleti folyamatok célja egy olyan könyves webshop megalkotása, amely közvetlen hozzáférést biztosít a felhasználóknak különféle kiadók köteteihez, mindezt egy helyen, jól szervezett, könnyen kezelhető felületen. Az új webshop üzleti folyamatai úgy lettek megtervezve, hogy hatékonyabb, átláthatóbb és vonzóbb vásárlási élményt nyújtsanak a látogatóknak.
-
 A főbb igényelt üzleti folyamatok a következők:
 - Felhasználói regisztráció és profilkezelés: A felhasználók létrehozhatnak egyedi profilokat, amelyekhez személyre szabott ajánlások, korábbi vásárlások, rendeléskövetési lehetőségek és értesítések kapcsolódnak.
 - Termékkínálat böngészése és szűrési lehetőségek: A könyveket kategóriák, szerzők, kiadók és egyéb jellemzők szerint lehet böngészni és szűrni, hogy a vásárlók gyorsan megtalálhassák a keresett köteteket.
