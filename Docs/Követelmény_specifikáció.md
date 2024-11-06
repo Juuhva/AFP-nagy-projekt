@@ -2,7 +2,9 @@
 
 ## 1. Áttekintés
 
+Ez a dokumentum egy modern és felhasználóbarát könyves webshop fejlesztéséhez készült követelmény specifikációt tartalmaz. Az online könyvkereskedelmi piac átalakulása miatt a hagyományos könyves webshopok gyakran elavultak és nem felelnek meg a mai vásárlói igényeknek. Az új webshop célja, hogy egy letisztult és átlátható platformot biztosítson a könyvrajongók számára, amely mind az új kiadványok, mind a ritka gyűjtői példányok és antik könyvek böngészését és vásárlását lehetővé teszi.
 
+A fejlesztés fő fókuszában a felhasználói élmény, az egyszerű navigáció és az átfogó keresési lehetőségek állnak, hogy a vásárlók könnyen megtalálják és megvásárolhassák az általuk keresett könyveket. A rendszer emellett közösségi funkciókat is kínál, mint például értékelési és véleményezési lehetőségek, amelyek elősegítik az olvasói közösség építését és a közösségi élményt. A webshop egy másodlagos piacot is biztosít, ahol az olvasók használt könyveiket is eladhatják vagy cserélhetik.
 
 ## 2. Jelenlegi helyzet
 
@@ -11,6 +13,14 @@ Napjainkban rengeteg könyves weboldal és webshop elavulttá vált, gyakran ren
 
 ## 3. Vágyálom rendszer
 
+A vágyálom rendszer olyan modern és intuitív platformot biztosít, amely lehetővé teszi a felhasználóknak, hogy gyorsan és könnyedén böngésszenek, keresgéljenek és vásároljanak a webshopban. Az alábbi főbb jellemzők biztosítják a vásárlók számára az optimális élményt:
+
+    Felhasználóbarát és letisztult design: Minimalista és könnyen navigálható felület, amely modern vizuális élményt nyújt.
+    Közösségi élmény támogatása: A vásárlók értékeléseket, véleményeket oszthatnak meg, ezzel közösségi térként is szolgál a webshop.
+    Széles körű kínálat: A webshop különféle műfajokat és kiadókat kínál, beleértve új és antik könyveket is, valamint limitált és díszkiadásokat.
+    Személyre szabott ajánlások: Az oldal az olvasók korábbi vásárlásai és érdeklődési körei alapján egyéni könyvajánlásokat jelenít meg, hogy új szerzőket és műveket fedezhessenek fel.
+    Mobilbarát kialakítás: Teljes funkcionalitással rendelkezik mobilon és tableten is, így bárhol könnyen elérhető.
+    Kereső és szűrő opciók: Hatékony keresőmotor és szűrési lehetőségek segítik a vásárlókat a könnyebb és gyorsabb böngészésben.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 
@@ -56,3 +66,11 @@ A webshop ugyanarra a sémára épül, mint a már megszokott webáruházak, a f
 
 ## 7. Fogalomtár
 
+    Webshop: Olyan online áruház, amely termékek széles választékát kínálja megvásárlásra, jelen esetben könyveket.
+    Felhasználói profil: Egyéni fiók, ahol a vásárlók személyes adatai, rendelési előzményei és kedvencei találhatók.
+    Keresőfunkció: Olyan funkció, amely lehetővé teszi, hogy a vásárlók kulcsszavak alapján keresgéljenek a webshopban.
+    Kosár: A virtuális tároló, amelybe a vásárlók összegyűjthetik azokat a könyveket, amelyeket meg kívánnak vásárolni.
+    Termékleírás: A webshopon megjelenő termékek részletes bemutatása, beleértve a főbb információkat, például a szerzőt, kiadót, oldalszámot, ISBN-számot, árat és elérhetőséget.
+    Értékelés: A vásárlók által adott visszajelzés a megvásárolt termékekről, amely segíthet más felhasználóknak a választásban.
+    Rendeléskövetés: Funkció, amely lehetőséget ad a felhasználónak, hogy nyomon kövesse a rendelésének státuszát.
+    Közösségi élmény: A webshop olyan funkciókat kínál, ahol a vásárlók megoszthatják véleményeiket, és kapcsolatba léphetnek más könyvszerető felhasználókkal.
