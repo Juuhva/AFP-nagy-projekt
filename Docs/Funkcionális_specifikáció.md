@@ -72,6 +72,9 @@ Piaci szerep:
 
 ## 8. Képernyőtervek
 
+![kepernyotervek](../Img/kepernyoterv.png)
+![kepernyoterv](../Img/fejlesztettebb.png)
+![weboldalkep](../Img/weboldal.png)
 
 ## 9. Forgatókönyvek
 
