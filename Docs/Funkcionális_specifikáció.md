@@ -40,6 +40,7 @@ Az üzleti folyamatok kialakításának célja egy hatékony, felhasználóbará
 
 ### Modell 
 
+(../Img/Modell.png)
 
 ## 5. Követelménylista
 
