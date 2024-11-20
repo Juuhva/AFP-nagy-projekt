@@ -40,15 +40,26 @@ Felhasználóink könnyen eligazodnak a weboldalon, a könyvek között egyszer�
 
 ## 3. Üzleti folyamatok modellje
 
-
+![oldal felületének felépitése](../Img/businesss.png)
 
 ### 3.1 Üzleti szereplők
 
+Az oldal regisztráció nélkül is használható, azonban bizonyos funkciók csak regisztrált felhasználók számára érhetők el. Az alábbiakban bemutatjuk a különböző üzleti szereplőket és az általuk elérhető szolgáltatásokat:
 
+Vendég Felhasználók:
+* Termékek megtekintése: A látogatók regisztráció nélkül is megtekinthetik az oldalon elérhető árucikkeket.
+* Kosár használata: A vendégek kosárba helyezhetik az általuk kívánt termékeket, hogy később vásárlás előtt áttekintsék őket.
+
+Regisztrált Felhasználók:
+* Vásárlás: A regisztrált felhasználók képesek végrehajtani a vásárlási tranzakciókat, beleértve a fizetési lehetőségeket.
+* Csomagkövetés: A vásárlók hozzáférhetnek a megrendelt termékeik státuszához és nyomon követhetik azok szállítási folyamatát.
+* Árufeltöltés: A regisztrált felhasználók, amennyiben eladni kívánnak, feltölthetik saját termékeiket a webshopra. Az árucikkek feltöltéséhez és kezeléséhez regisztráció szükséges.
+
+A regisztrált felhasználók számára a webshop további kényelmi szolgáltatásokat is biztosít, mint például a profilkezelést, rendelési előzmények megtekintését és személyre szabott ajánlásokat.
 
 ### 3.2 Üzleti folyamatok
 
-
+A felhasználó regisztráció nélkül böngészhet és kosárba helyezhet termékeket, de vásárláshoz regisztráció szükséges, amely után hozzáférhet a vásárlási funkciókhoz.
 
 ## 4. Követelmények
 
@@ -117,30 +128,66 @@ A rendszer egy szerver (host) gépen fut, melyet a felhasználók (kliensek) egy
 ## 6. Fizikai környezet
 
 
-
 ### Vásárolt szoftverkomponensek, valamint esetleges külső rendszerek
 
-
+Nincsenek vásárolt szoftverkomponensek
 
 ### Hardver topológia
 
-
+Grafikus operációs rendszer, amely képes böngészőt futtatni.
 
 ### Fizikai alrendszerek
 
-
+Kliensgép: A felhasználók által használt PC-k, amelyek grafikus operációs rendszerrel rendelkeznek.
+Szervergép: Az adatbázis és a weboldal tárolására alkalmas. A kliensgépek a szerverrel kommunikálnak.
 
 ### Fejlesztő eszközök
 
-
+- Visual Studio Code
+- Webböngésző
+- XAMPP (MySQL)
 
 ## 7. Architekturális terv
 
-
+A felhasználóknak internetkapcsolatra és egy webböngészőre van szükségük a szolgáltatás igénybevételéhez. Az oldalt egy URL beírásával lehet elérni. A felhasználóknak nem kell az adatbázishoz közvetlenül csatlakozniuk, ezt a weboldal automatikusan megoldja.
 
 ## 8. Adatbázis terv
 
+A webshop több különböző táblát használ a megfelelő működés érdekében, ezek: 
 
+- *users:* Regisztrált felhasználók
+
+| Attribútum | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|------------|--------------|------------------------------------|-----------------------------------------------------------|
+| user_id    | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a felhasználó egyedi azonosítója          |
+| username   | varchar(25)  | NOT NULL                           | A felhasználó bejelentkezési neve                         |
+| email      | varchar(191) | NOT NULL                           | A felhasználó email címe                                  |
+| password   | varchar(191) | NOT NULL                           | A felhasználó jelszava                                    				|
+| usertype   | varchar(191) | NOT NULL                           | Felhasználó jogosultsága                                 			  |
+| phone		 | varchar(25)	| NOT NULL							 | Felhasználó telefonszáma 											  |
+| address	 | varchar(100) | NOT NULL                   		 | Felhasználó álltal megadott cím														  |
+
+
+- *products:* A termékek táblája
+
+| Attribútum     | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|----------------|--------------|------------------------------------|-----------------------------------------------------------|
+| product_id     | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a termék egyedi azonosítója               |
+| product_tag    | varchar(25)  | NOT NULL                           | A termék szűrő neve                                       |
+| product_name   | varchar(191) | NOT NULL                           | A termék neve                                             |
+| description    | TEXT         |                                    | A termék leírása                                          |
+| is_unavailable | tinyint(2)   | NOT NULL                           | Logikai törlés azonosítója                                |
+
+
+- *orders:* A rendelések táblája
+
+| Attribútum  | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|-------------|--------------|------------------------------------|-----------------------------------------------------------|
+| order_id    | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a rendelés egyedi azonosítója             |
+| product_id  | int(15)      | NOT NULL                           | A termék azonosítója                                      |
+| buyer_id    | int(15)      | NOT NULL                           | A vevő azonosítója                                        |
+| status      | varchar(30)  | NOT NULL                           | A rendelés állapota                                       |
+| delivery_id | int(15)      |                                    | A futátszolgálat azonosítója, ha a státsuz megfelelő      |
 
 ## 9. Implementációs terv
 
@@ -148,18 +195,30 @@ Laravel kezeli a backend-et, a frontend-et pedig JavaScript, CSS és PHP.
 
 ## 10. Tesztterv
 
-A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata,
-ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifikálása.
-A teszteléseket a fejlesztői csapat minden tagja elvégzi.
-A tesztek eredményeit a tagok dokumentálják külön fájlokba.
+Tesztelés végrehajtása:
+A teszteket a fejlesztői csapat minden tagja elvégzi, biztosítva ezzel a különböző nézőpontok és tapasztalatok figyelembevételét.
+A tesztek eredményeit a tagok dokumentálják külön fájlokban, ezáltal nyomon követhetővé téve a tesztelési folyamatot.
 
-A tesztelés során a szoftver megfelelő működését vizsgáljuk. Amennyiben az elvártnak megfelelő eredményt kapunk, a teszt eset sikeresnek tekinthető, ellenkező esetben a hibát rögzítjük a teszt jegyzőkönyvben. Ezt követően a megtalált hibákat javítjuk a szoftverben, és újbóli tesztelésnek vetjük alá a rendszert.
+Szoftver működésének ellenőrzése:
+A tesztelés során a szoftver megfelelő működését vizsgáljuk. Az elvárt eredmények alapján a teszt eseteket sikeresnek vagy sikertelennek minősítjük.
+Amennyiben az elvártnak megfelelő eredményt kapunk, a teszt eset sikeresnek tekinthető.
 
-A tesztelés során különböző operációs rendszereken (IOS, Android, Windows) és különböző böngészőkben (Chrome, firefox, Opera, Safari, Brave) vizsgáljuk az oldal megfelelő működését.
+Ellenkező esetben a hibát rögzítjük a teszt jegyzőkönyvben, amely tartalmazza a hiba leírását és a reprodukálás lépéseit.
+Hibajavítás és újbóli tesztelés:
+A megtalált hibákat javítjuk a szoftverben, és azután a javításokat újbóli tesztelésnek vetjük alá, hogy biztosítsuk a hiba kiküszöbölését és a rendszer stabilitását.
+
+Környezetek és platformok:
+A tesztelés során különböző operációs rendszereken (iOS, Android, Windows) és böngészőkben (Chrome, Firefox, Opera, Safari, Brave) vizsgáljuk az oldal megfelelő működését.
+Ezzel biztosítjuk, hogy a webshop minden felhasználó számára, függetlenül a használt eszköztől, zökkenőmentes élményt nyújtson.
 
 ## 11. Telepítési terv
 
+A webshop eléréséhez csupán egy internetkapcsolattal rendelkező eszköz szükséges, amely támogatja az internetböngészést. Az alábbi operációs rendszerek és böngészők mindegyike kompatibilis a webshop használatával:
 
+Operációs rendszerek: iOS, Android, Linux, Windows, macOS
+Böngészők: Chrome, Firefox, Opera, Safari, Brave, Edge, és más modern böngészők
+
+Az oldal minden eszközön és platformon elérhető, biztosítva a zökkenőmentes felhasználói élményt.
 
 ## 12. Karbantartási terv
 
