@@ -79,3 +79,7 @@ section {
 .main-text {
     color: #fff;
 }
+
+.main-text h4 {
+    color: rgb(60, 8, 95);
+}
