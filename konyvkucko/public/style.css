@@ -61,12 +61,6 @@ header {
     color: #4f41c9;
 }
 
-#menu-icon {
-    font-size: 35px;
-    color: #2c2c2c;
-    z-index: 10001;
-    cursor: pointer;
-}
 
 section {
     padding: 5% 10%;
