@@ -128,30 +128,66 @@ A rendszer egy szerver (host) gépen fut, melyet a felhasználók (kliensek) egy
 ## 6. Fizikai környezet
 
 
-
 ### Vásárolt szoftverkomponensek, valamint esetleges külső rendszerek
 
-
+Nincsenek vásárolt szoftverkomponensek
 
 ### Hardver topológia
 
-
+Grafikus operációs rendszer, amely képes böngészőt futtatni.
 
 ### Fizikai alrendszerek
 
-
+Kliensgép: A felhasználók által használt PC-k, amelyek grafikus operációs rendszerrel rendelkeznek.
+Szervergép: Az adatbázis és a weboldal tárolására alkalmas. A kliensgépek a szerverrel kommunikálnak.
 
 ### Fejlesztő eszközök
 
-
+- Visual Studio Code
+- Webböngésző
+- XAMPP (MySQL)
 
 ## 7. Architekturális terv
 
-
+A felhasználóknak internetkapcsolatra és egy webböngészőre van szükségük a szolgáltatás igénybevételéhez. Az oldalt egy URL beírásával lehet elérni. A felhasználóknak nem kell az adatbázishoz közvetlenül csatlakozniuk, ezt a weboldal automatikusan megoldja.
 
 ## 8. Adatbázis terv
 
+A webshop több különböző táblát használ a megfelelő működés érdekében, ezek: 
 
+- *users:* Regisztrált felhasználók
+
+| Attribútum | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|------------|--------------|------------------------------------|-----------------------------------------------------------|
+| user_id    | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a felhasználó egyedi azonosítója          |
+| username   | varchar(25)  | NOT NULL                           | A felhasználó bejelentkezési neve                         |
+| email      | varchar(191) | NOT NULL                           | A felhasználó email címe                                  |
+| password   | varchar(191) | NOT NULL                           | A felhasználó jelszava                                    				|
+| usertype   | varchar(191) | NOT NULL                           | Felhasználó jogosultsága                                 			  |
+| phone		 | varchar(25)	| NOT NULL							 | Felhasználó telefonszáma 											  |
+| address	 | varchar(100) | NOT NULL                   		 | Felhasználó álltal megadott cím														  |
+
+
+- *products:* A termékek táblája
+
+| Attribútum     | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|----------------|--------------|------------------------------------|-----------------------------------------------------------|
+| product_id     | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a termék egyedi azonosítója               |
+| product_tag    | varchar(25)  | NOT NULL                           | A termék szűrő neve                                       |
+| product_name   | varchar(191) | NOT NULL                           | A termék neve                                             |
+| description    | TEXT         |                                    | A termék leírása                                          |
+| is_unavailable | tinyint(2)   | NOT NULL                           | Logikai törlés azonosítója                                |
+
+
+- *orders:* A rendelések táblája
+
+| Attribútum  | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|-------------|--------------|------------------------------------|-----------------------------------------------------------|
+| order_id    | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a rendelés egyedi azonosítója             |
+| product_id  | int(15)      | NOT NULL                           | A termék azonosítója                                      |
+| buyer_id    | int(15)      | NOT NULL                           | A vevő azonosítója                                        |
+| status      | varchar(30)  | NOT NULL                           | A rendelés állapota                                       |
+| delivery_id | int(15)      |                                    | A futátszolgálat azonosítója, ha a státsuz megfelelő      |
 
 ## 9. Implementációs terv
 

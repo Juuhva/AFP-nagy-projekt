@@ -29,9 +29,18 @@ Piaci szerep:
 
 ## 4. Igényelt üzleti folyamatok modellje
 
+A főbb igényelt üzleti folyamatok a következők:
+- Felhasználói regisztráció és profilkezelés: A felhasználók létrehozhatnak egyedi profilokat, amelyekhez személyre szabott ajánlások, korábbi vásárlások, rendeléskövetési lehetőségek és értesítések kapcsolódnak.
+- Termékkínálat böngészése és szűrési lehetőségek: A könyveket kategóriák, szerzők, kiadók és egyéb jellemzők szerint lehet böngészni és szűrni, hogy a vásárlók gyorsan megtalálhassák a keresett köteteket.
+- Vásárlási folyamat: A vásárlók hozzáadhatják a termékeket a kosárhoz, ahol a vásárlás előtt még egyszer ellenőrizhetik a tételeket, majd elvégezhetik a fizetési tranzakciót.
+- Rendeléskövetés és ügyfélszolgálat: Az egyes megrendelések aktuális státusza követhető a webshopon, és szükség esetén az ügyfélszolgálattal is fel lehet venni a kapcsolatot problémák vagy kérdések megoldására.
+- Értékelési és közösségi funkciók: A felhasználók véleményt írhatnak a megvásárolt könyvekről, ami támogatja a közösségi élményt, és segít másoknak a vásárlási döntésben.
+
+Az üzleti folyamatok kialakításának célja egy hatékony, felhasználóbarát webshop megteremtése, amely biztosítja a könyvek gyors, kényelmes elérését, miközben folyamatosan reagál a vásárlói igényekre és trendekre.
 
 ### Modell 
 
+![Model](../Img/Modell.png)
 
 ## 5. Követelménylista
 
@@ -108,3 +117,13 @@ Id | Követelmény |	Funkció |
 | K4 |	Határtalan |	A webshop képes bármennyi könyvet és terméket kezelni. Akár nagy mennyiségű könyvet is feltölthetünk, és minden termék könnyedén kereshető és kategorizálható. A webshop rugalmasan kezeli a termékek folyamatos bővítését és frissítését, így biztosítva a folyamatos növekedést és a változatos választékot.
 
 ## 11. Fogalomtár
+- Webshop: Olyan online platform, amely könyvek és hozzájuk kapcsolódó ajándéktárgyak vásárlására szolgál.
+- Felhasználói profil: Egyéni fiók, amelyen keresztül a vásárlók elérhetik és szerkeszthetik személyes adataikat, nyomon követhetik rendeléseiket, és megtekinthetik a korábbi vásárlásaikat.
+- Kosár: Az a virtuális hely, ahol a felhasználó a vásárlás során összegyűjti a kiválasztott könyveket és termékeket, mielőtt véglegesíti a vásárlást.
+- Regisztráció: A webshop felhasználói számára fiók létrehozásának folyamata, amely magában foglalja az e-mail cím és egy jelszó megadását, valamint egyéb alapvető információkat.
+- Rendeléskövetés: Funkció, amely lehetővé teszi a vásárlóknak, hogy nyomon kövessék rendeléseik státuszát, a feldolgozástól a kézbesítésig.
+- Értékelés: A vásárlók visszajelzése a termékekről, amely megjelenik a termékoldalon, és segíti a többi vásárlót a választásban.
+- Ügyfélszolgálat: Támogatási szolgáltatás, amelyen keresztül a vásárlók kérdéseket tehetnek fel, vagy segítséget kérhetnek problémáik megoldásához.
+- Szűrés: Keresési funkció, amely segít a felhasználóknak az oldal kínálatában való böngészés során különféle kritériumok alapján szűkíteni a találatokat (pl. szerző, kiadó, műfaj).
+- Előrendelés: Olyan funkció, amely lehetővé teszi a vásárlók számára, hogy megvásároljanak egy könyvet a megjelenése előtt, kedvezményes áron.
+- Akciók: Időszakos kedvezmények a kínálatban szereplő könyvekre és ajándéktárgyakra, amelyek célja a vásárlói érdeklődés fokozása.
