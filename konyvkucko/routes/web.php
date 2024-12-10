@@ -12,7 +12,19 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard', ['pageTitle' => 'VALAMI'] );
+    // Get the previous URL
+    $previousUrl = url()->previous();
+
+    // Check if the user is coming from the login or register page
+    $fromLogin = strpos($previousUrl, 'login') !== false;
+    $fromRegister = strpos($previousUrl, 'register') !== false;
+
+    // Pass data to the view
+    return view('dashboard', [
+        'pageTitle' => 'VALAMI',
+        'fromLogin' => $fromLogin,
+        'fromRegister' => $fromRegister,
+    ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 

@@ -8,7 +8,7 @@
         @include('home.header')
     </header>
 
-    <div class="">
+    <div style="margin-top: 150px">
     <x-guest-layout>
         <form method="POST" action="{{ route('register') }}">
             @csrf  

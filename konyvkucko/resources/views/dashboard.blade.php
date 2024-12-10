@@ -7,23 +7,19 @@
 <body>
     <header>
         @include('home.header')
-    </header>
+</header>
 
     <section class="main-home">
         <div class="main-text">
-            <h1>Kiemelt ajánlatunk</h1>
-            
-            <!-- Display the logged-in user information -->
-            @auth
-                <p>Welcome, {{ Auth::user()->name }}!</p> <!-- Display user name -->
-                <form action="{{ route('logout') }}" method="POST">
-                    @csrf
-                    <button type="submit">Logout</button> <!-- Logout button -->
-                </form>
-            @else
-                <p>You are not logged in.</p>
-            @endauth
-        </div>
+        @if ($fromLogin)
+    <h1 style="color:black; opacity:1">Sikeres bejelentkezés!</h1>
+@endif
+
+@if ($fromRegister)
+    <h1 style="color:black; opacity:1;" >Sikeres regisztráció!</h1>
+@endif
+    
+    </div>
     </section>
 
     <script src="{{ asset('javascript.js') }}"></script>
