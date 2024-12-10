@@ -12,29 +12,27 @@
             @guest
                 <li>
                     <a href="{{ route('register') }}">
-                        <i class="icon-register"></i> Register
+                        <i class="bx bxs-id-card"></i> 
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('login') }}">
-                        <i class="icon-login"></i> Login
+                        <i class="bx bx-log-in"></i>
                         
                     </a>
                 </li>
             @endguest
 
-            <!-- Display the Logout button only if the user is authenticated -->
             @auth
                 <li>
                     <form action="{{ route('logout') }}" method="POST" style="display:inline;">
                         @csrf
                         <button type="submit" style="background:none; border:none;">
-                        <i class='bx bxs-log-out-circle' ></i>
+                        <i class='bx bx-log-out' ></i>
                         </button>
                     </form>
                 </li>
             @endauth
-            <a href="{{url('/register')}}"><i class='bx bxs-id-card'></i></a>
             <a href="cart.html"><i class='bx bx-cart' ></i></a>
 
             
