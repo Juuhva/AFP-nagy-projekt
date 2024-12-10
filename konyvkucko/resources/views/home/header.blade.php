@@ -4,6 +4,7 @@
             <li><a href="{{url('/')}}">Csak nálunk kapható</a></li>
             <li><a href="gyik.html">Tudnivalók</a></li>
             <li><a href="contact.html">Ügyfélszolgálat</a></li>
+            
         </ul>
 
         <div class="nav-icon">

@@ -1,17 +1,31 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    @include('home.head')
+    <title>@yield('title', 'Custom Dashboard Title')</title> 
+</head>
+<body>
+    <header>
+        @include('home.header')
+    </header>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
-                </div>
-            </div>
+    <section class="main-home">
+        <div class="main-text">
+            <h1>Kiemelt ajánlatunk</h1>
+            
+            <!-- Display the logged-in user information -->
+            @auth
+                <p>Welcome, {{ Auth::user()->name }}!</p> <!-- Display user name -->
+                <form action="{{ route('logout') }}" method="POST">
+                    @csrf
+                    <button type="submit">Logout</button> <!-- Logout button -->
+                </form>
+            @else
+                <p>You are not logged in.</p>
+            @endauth
         </div>
-    </div>
-</x-app-layout>
+    </section>
+
+    <script src="{{ asset('javascript.js') }}"></script>
+</body>
+</html>
