@@ -18,7 +18,7 @@ Route::get('/dashboard', function () {
 
 Route::post('/logout', function () {
     Auth::logout();
-    return redirect('/'); // Redirect to the home page or login page after logout
+    return redirect('/');
 })->name('logout');
 
 
