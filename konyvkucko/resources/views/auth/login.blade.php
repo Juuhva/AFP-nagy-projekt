@@ -4,12 +4,14 @@
 @include('home.head')
 </head>
 <body>
-    <header>
+    <header style="margin: bottom 200px">
         @include('home.header')
     </header>
-
+    
     <section class="main-home">
-    <x-guest-layout>
+    <div class="main-text">
+        
+
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
 
@@ -55,9 +57,9 @@
                 </x-primary-button>
             </div>
         </form>
-    </x-guest-layout>
-    </section>
-    
+        </div>
+        </section>
+
     <script src="{{asset('javascript.js')}}"></script>
 </body>
 </html>

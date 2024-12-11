@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 
 route::get('/', [HomeController::class, 'home']);
 
@@ -11,8 +12,24 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    $previousUrl = url()->previous();
+
+    $fromLogin = strpos($previousUrl, 'login') !== false;
+    $fromRegister = strpos($previousUrl, 'register') !== false;
+
+    return view('dashboard', [
+        'pageTitle' => 'VALAMI',
+        'fromLogin' => $fromLogin,
+        'fromRegister' => $fromRegister,
+    ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+
+Route::post('/logout', function () {
+    Auth::logout();
+    return redirect('/');
+})->name('logout');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -1,17 +1,30 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    @include('home.head')
+    <title>@yield('title', 'Custom Dashboard Title')</title> 
+</head>
+<body>
+    <header>
+        @include('home.header')
+</header>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
-                </div>
-            </div>
-        </div>
+
+    <section class="main-home">
+        <div class="main-text">
+        @if ($fromLogin)
+
+        <div></div>
+    <h1 style="color:black; opacity:1">Sikeres bejelentkezés!</h1>
+@endif
+
+@if ($fromRegister)
+    <h1 style="color:black; opacity:1;" >Sikeres regisztráció!</h1>
+@endif
+    
     </div>
-</x-app-layout>
+    </section>
+
+    <script src="{{ asset('javascript.js') }}"></script>
+</body>
+</html>
