@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="hu">
   <head>
-    @include('admin.head')
+    @include('admin.statistic_head')
   </head>
   <body>
-    @include('admin.body')
+    @include('admin.statistic_body')
   </body>
 </html>
