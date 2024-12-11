@@ -8,7 +8,8 @@
         @include('home.header')
     </header>
     
-    <div style="margin-top: 150px;">
+    <section class="main-home">
+    <div class="main-text">
         
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
@@ -56,7 +57,7 @@
             </div>
         </form>
         </div>
-
+        </section>
     <script src="{{asset('javascript.js')}}"></script>
 </body>
 </html>
