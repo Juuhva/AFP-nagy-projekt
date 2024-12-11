@@ -9,9 +9,12 @@
         @include('home.header')
 </header>
 
+
     <section class="main-home">
         <div class="main-text">
         @if ($fromLogin)
+
+        <div></div>
     <h1 style="color:black; opacity:1">Sikeres bejelentkezés!</h1>
 @endif
 
